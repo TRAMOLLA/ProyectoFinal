@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     public void FinDeLuego()
     {
         pantallaFin.SetActive(true);
-        time.timeScale = 0;
+        Time.timeScale = 0;
     }
 
     public void JuegoNuevo()
