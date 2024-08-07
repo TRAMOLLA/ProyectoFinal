@@ -32,9 +32,18 @@ public class MovimientoJugador : MonoBehaviour
 
     private bool salto = false;
 
+    [Header("Dash")]
+    [SerializeField] private float velocidadDash;
+    [SerializeField] private float tiempoDash;
+    [SerializeField] private TrailRenderer trailRenderer;
+    private float gravedadInicial;
+    private bool puedeHacerDash = true;
+    private bool sePuedeMover = true;
+
     private void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
+        gravedadInicial = rb2D.gravityScale;
     }
 
     private void Update()
@@ -44,14 +53,21 @@ public class MovimientoJugador : MonoBehaviour
         if (Input.GetButtonDown("Jump")){
             salto = true;
         }
+        if(Input.GetKeyDown(KeyCode.B) && puedeHacerDash)
+        {
+            StartCoroutine(Dash());
+        }
+      
     }
 
     private void FixedUpdate()
     {
         enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
         //Mover
-        Mover(movimientoHorizontal * Time.fixedDeltaTime, salto);
-
+        if (sePuedeMover)
+        {
+            Mover(movimientoHorizontal * Time.fixedDeltaTime, salto);
+        }
         salto = false;
     }
 
@@ -88,5 +104,17 @@ public class MovimientoJugador : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
     }
-
+    private IEnumerator Dash()
+    {
+        sePuedeMover = false;
+        puedeHacerDash = false;
+        rb2D.gravityScale = 0;
+        rb2D.velocity = new Vector2(velocidadDash * transform.localScale.x, 0);
+        trailRenderer.emitting = true;
+        yield return new WaitForSeconds(tiempoDash);
+        sePuedeMover = true;
+        puedeHacerDash = true;
+        rb2D.gravityScale = gravedadInicial;
+        trailRenderer.emitting = false;
+    }
 }
