@@ -19,7 +19,7 @@ public class MovimientoJugador : MonoBehaviour
     private bool mirandoDerecha = true;
 
     [Header("Salto")]
-    
+
     [SerializeField] private float fuerzaDeSalto;
 
     [SerializeField] private LayerMask queEsSuelo;
@@ -31,6 +31,9 @@ public class MovimientoJugador : MonoBehaviour
     [SerializeField] private bool enSuelo;
 
     private bool salto = false;
+
+    [SerializeField] private int saltosExtraRestantes;
+    [SerializeField] private int saltosExtra;
 
     [Header("Dash")]
     [SerializeField] private float velocidadDash;
@@ -50,14 +53,18 @@ public class MovimientoJugador : MonoBehaviour
     {
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadDeMovimiento;
 
-        if (Input.GetButtonDown("Jump")){
+        if (Input.GetButtonDown("Jump")) {
             salto = true;
         }
-        if(Input.GetKeyDown(KeyCode.B) && puedeHacerDash)
+        if (Input.GetKeyDown(KeyCode.B) && puedeHacerDash)
         {
             StartCoroutine(Dash());
         }
-      
+        if (enSuelo)
+        {
+            saltosExtraRestantes = saltosExtra;
+        }
+
     }
 
     private void FixedUpdate()
@@ -86,12 +93,38 @@ public class MovimientoJugador : MonoBehaviour
             //Girar
         }
 
-        if(enSuelo && saltar){
+        if (enSuelo && saltar) {
             enSuelo = false;
             rb2D.AddForce(new Vector2(0f, fuerzaDeSalto));
         }
+
     }
 
+    private void Salto()
+    {
+        //rb2D.AddForce(new Vector2(0f, fuerzaDeSalto));
+        rb2D.velocity = new Vector2(0f, fuerzaDeSalto);
+        salto = false;
+    }
+
+    private void Movimiento(bool salto)
+    {
+        if (salto)
+        {
+            if (enSuelo)
+            {
+                Salto();
+            }
+        }
+        else
+        {
+            if (salto && saltosExtraRestantes <0)
+            {
+                Salto();
+                saltosExtraRestantes -= 1;
+            }
+        }
+    }
     private void Girar()
     {
         mirandoDerecha = !mirandoDerecha;

@@ -483,7 +483,7 @@ Transform:
   m_GameObject: {fileID: 845780459}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.26, y: -1.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -562,7 +562,7 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0.71809363, g: 0.72249913, b: 0.9339623, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 0}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -570,15 +570,15 @@ TrailRenderer:
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 0
-      ctime1: 65535
+      ctime0: 33346
+      ctime1: 57247
       ctime2: 0
       ctime3: 0
       ctime4: 0
       ctime5: 0
       ctime6: 0
       ctime7: 0
-      atime0: 0
+      atime0: 1928
       atime1: 65535
       atime2: 0
       atime3: 0
@@ -794,7 +794,7 @@ Transform:
   m_GameObject: {fileID: 1299051312}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 4.34, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1098,8 +1098,8 @@ Transform:
   m_GameObject: {fileID: 1905409308}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.481, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.24, y: -2.7, z: 0}
+  m_LocalScale: {x: 1.546875, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1945405053}
@@ -1157,18 +1157,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.12099403, y: -0.35372543}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 4.79, y: 5.2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.921873, y: 4.537251}
   m_EdgeRadius: 0
 --- !u!50 &1945405051
 Rigidbody2D:
@@ -1238,8 +1238,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.28515485, g: 0.6155627, b: 0.6792453, a: 1}
+  m_Sprite: {fileID: 21300000, guid: c498e8bbfa39bca45991c4c03fd84c44, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1258,8 +1258,8 @@ Transform:
   m_GameObject: {fileID: 1945405049}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.67, y: -1.51, z: 0}
-  m_LocalScale: {x: 0.7363, y: 1, z: 1}
+  m_LocalPosition: {x: -2.383, y: -0.827, z: 0}
+  m_LocalScale: {x: 0.53284144, y: 0.44819203, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1905409309}
@@ -1281,15 +1281,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidadDeMovimiento: 400
   suavizadoDeMovimiento: 0.3
-  fuerzaDeSalto: 400
+  fuerzaDeSalto: 500
   queEsSuelo:
     serializedVersion: 2
     m_Bits: 64
   controladorSuelo: {fileID: 1905409309}
   dimensionesCaja: {x: 1, y: 0.25, z: 0}
   enSuelo: 0
-  velocidadDash: 8
-  tiempoDash: 3
+  saltosExtraRestantes: 1
+  saltosExtra: 1
+  velocidadDash: 10
+  tiempoDash: 1
   trailRenderer: {fileID: 845780461}
 --- !u!114 &1945405055
 MonoBehaviour:
