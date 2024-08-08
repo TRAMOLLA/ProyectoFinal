@@ -6,6 +6,8 @@ public class MovimientoJugador : MonoBehaviour
 {
     private Rigidbody2D rb2D;
 
+    private SpriteRenderer spriteRenderer;
+
     [Header("Movimiento")]
 
     private float movimientoHorizontal = 0f;
@@ -47,11 +49,13 @@ public class MovimientoJugador : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
         gravedadInicial = rb2D.gravityScale;
+        spriteRenderer = GetComponent<spriteRenderer>();
     }
 
     private void Update()
     {
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadDeMovimiento;
+        enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
 
         if (Input.GetButtonDown("Jump")) {
             salto = true;
@@ -69,7 +73,7 @@ public class MovimientoJugador : MonoBehaviour
 
     private void FixedUpdate()
     {
-        enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
+        Movimiento(salto);
         //Mover
         if (sePuedeMover)
         {
@@ -118,19 +122,20 @@ public class MovimientoJugador : MonoBehaviour
         }
         else
         {
-            if (salto && saltosExtraRestantes <0)
+            if (salto && saltosExtraRestantes < 0)
             {
                 Salto();
                 saltosExtraRestantes -= 1;
             }
         }
     }
+
     private void Girar()
     {
         mirandoDerecha = !mirandoDerecha;
-        Vector3 escala = transform.localScale;
-        escala.x *= -1;
-        transform.localScale = escala;
+        //Girar
+        transform.eulerAngles. = new Vector3(0, transform.eulerAngles.y + 180, 0);
+
     }
 
     private void OnDrawGizmos(){
