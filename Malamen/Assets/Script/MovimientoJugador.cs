@@ -49,7 +49,7 @@ public class MovimientoJugador : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
         gravedadInicial = rb2D.gravityScale;
-        spriteRenderer = GetComponent<spriteRenderer>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -134,7 +134,7 @@ public class MovimientoJugador : MonoBehaviour
     {
         mirandoDerecha = !mirandoDerecha;
         //Girar
-        transform.eulerAngles. = new Vector3(0, transform.eulerAngles.y + 180, 0);
+        transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
 
     }
 

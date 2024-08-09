@@ -12,13 +12,13 @@ public class MovimientoEnemigo : MonoBehaviour
 
     void Start()
     {
-        rb2D = GetComponent < Rigidbody2Dy();
+        rb2D = GetComponent <Rigidbody2D>();
     }
 
     void Update()
     {
         rb2D.velocity = new Vector2(velocidadMovimiento * transform.right.x, rb2D.velocity.y);
-        RaycastHit2DinformacionSuelo = Physics2D.Raycast(transform.position,transform.right, distancia, queEsSuelo);
+        RaycastHit2D informacionSuelo = Physics2D.Raycast(transform.position,transform.right, distancia, queEsSuelo);
         if (informacionSuelo)
         {
             Girar();
@@ -31,7 +31,7 @@ public class MovimientoEnemigo : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        OnDrawGizmosSelected().color = Color.red;
-        OnDrawGizmosSelected().DrawLine (transform.position, transform.position + transform.right * distancia);
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine (transform.position, transform.position + transform.right * distancia);
     }
 }
