@@ -14,7 +14,7 @@ public class BalaEnemigo : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Time.deltaTime * Vector2.right);
+        transform.Translate(Time.deltaTime * velocidad * Vector2.right);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -22,6 +22,7 @@ public class BalaEnemigo : MonoBehaviour
         if (other.TryGetComponent(out VidaJugador vidaJugador))
         {
             vidaJugador.TomarDaño(daño);
+            Destroy(gameObject);
         }
     }
 
