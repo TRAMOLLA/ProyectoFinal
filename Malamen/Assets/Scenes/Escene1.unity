@@ -369,7 +369,6 @@ GameObject:
   - component: {fileID: 591283650}
   - component: {fileID: 591283649}
   - component: {fileID: 591283648}
-  - component: {fileID: 591283654}
   m_Layer: 7
   m_Name: Enemigo
   m_TagString: Untagged
@@ -547,28 +546,6 @@ Transform:
   - {fileID: 1542476749}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &591283654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 591283647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c100ba504c4ea6f4b9f0395edd48153a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controladorDisparo: {fileID: 1542476749}
-  distanciaLinea: 5
-  capaJugador:
-    serializedVersion: 2
-    m_Bits: 256
-  jugadorEnRango: 0
-  balaEnemigo: {fileID: 7674211069362155083, guid: 3b1287b09ed10c047a840643e83d5f23, type: 3}
-  tiempoEntreDisparos: 10
-  tiempoUltimoDisparo: 0
-  tiempoEsperaDisparo: 3
 --- !u!1 &597928276
 GameObject:
   m_ObjectHideFlags: 0
@@ -2705,7 +2682,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: de81f16996bed3c4795f85c6e77089d6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
