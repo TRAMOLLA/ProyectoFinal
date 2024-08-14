@@ -1,0 +1,1473 @@
+fileFormatVersion: 2
+guid: f615c6039f2551a40a9c40521acf8b7e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pared ladrillos larga_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26837507c08de9941928a786abefc1da
+      internalID: -1186117095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 370
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a98bb8c69744974fa4207eef15f00b1
+      internalID: 1086625173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 370
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6acc6d546cdce4582f378b81a48042
+      internalID: 539692768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 370
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e76a1c1df835f4985112d148fff078
+      internalID: 1181858778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 370
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3333831d96d2634b8d2f243f62c018d
+      internalID: 1445466673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 370
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce16e6922248334e8ef6f43a864a681
+      internalID: 1473734422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_6
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 370
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddec93e567f6ed1439cb7b6cff0eef49
+      internalID: 1667556271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_7
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 370
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5a7881de63d9d4ba9d568701098821
+      internalID: -269399876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_8
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 370
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d180eb78521af64aab74cdfc5a59301
+      internalID: 1742560783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_9
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 370
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bc5f2d7712d214cbac58ab266eb5e1
+      internalID: 814102172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9012d07353efe9c4db2220becfda5092
+      internalID: 760404261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_11
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 299
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac9b968c846f9b4396f2a8e717aeeab
+      internalID: 1978254257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_12
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 299
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d443b12552fbf3644bdcbb508375acf4
+      internalID: 292717168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_13
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 299
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab254ed018f4974990ac301ea679245
+      internalID: 964396625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_14
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 299
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9478afa3e3caa4ebc2e6137c1c6e44
+      internalID: 836625645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_15
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 299
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c5bcf1074005d4b9672aa0de72c8f1
+      internalID: 1014961018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_16
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 299
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7369cf7a4304340bb728002af64830
+      internalID: 1753331226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_17
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 299
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e5294631942964db57673720d36afc
+      internalID: -184990018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_18
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 299
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49990c45a97bbd94295c827b07a81b94
+      internalID: 231052148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_19
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 299
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf3760e5002f864b939f5085c96914f
+      internalID: 920104224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae82dbc372d0fb849b30f378e04562d0
+      internalID: -498825770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_21
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 228
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8707b6b2f19c96e4b891763491097002
+      internalID: -250203127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_22
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 228
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c1027c862aa7546913260ce255edc1
+      internalID: 1676003263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_23
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 228
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ee77123b0f12e4d904ef97e344b239
+      internalID: -1388670568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_24
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 228
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc574561fbec5ea478bf0d5a5775513a
+      internalID: 622526960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_25
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 228
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef75fd64b8c73847bc035ee97b62252
+      internalID: 5208116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_26
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 228
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cde1174962c1af4a8c8914bc1de0a8b
+      internalID: 186923740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_27
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 228
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc72a77266a82044889f8ff362deb2a2
+      internalID: 2020841321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_28
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 228
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ce7eed9acb3e849ad09881067d2d0b
+      internalID: -688884327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_29
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 228
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28713291f547cee448f6e0f7772dc80c
+      internalID: 406265782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 157
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0ce4279cd96334ab5ad3ec1613c0a4
+      internalID: 1833230966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_31
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 157
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03e195d307654544b73aaccc2f2e420
+      internalID: -1712716713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_32
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 157
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba40cfc375502cf4ab73417b6b0a3120
+      internalID: 255032460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_33
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 157
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5760185e96ef3448d71034b6a372ae
+      internalID: -61587280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_34
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 157
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1ddbd55a5ef1a4bbffaabca78d32fb
+      internalID: -361915500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_35
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 157
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff671045ac674cb4b8f1463f6203a133
+      internalID: 623890608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_36
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 157
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f97050fe5a41f043a8e6cfc97a239d5
+      internalID: 425511902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_37
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 157
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9d62b91ba7d1b4a8bb4688fbf0b108
+      internalID: -398199388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_38
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 157
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c029f2d8a1ea9bc4fabe53d0f97d1e5f
+      internalID: -1874864142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_39
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 157
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b16d2eac239094b81680a353f175c5
+      internalID: -1860378063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c598be54a116914b8cb5c12f17a3c53
+      internalID: -1081706944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_41
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 86
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63516aeb0ede3648be060cdb92e9f5b
+      internalID: 1927018347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_42
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 86
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fc3cfe709235b4db0d3ace86b26fc9
+      internalID: -3894204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_43
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 86
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ba749a3a94bdd4f9af3c791510a746
+      internalID: -404009925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_44
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 86
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731004753112ef4448495673e9be1a49
+      internalID: 1716891218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_45
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 86
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4cfdd3f623528448f0282a6fbc5828
+      internalID: 506661424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_46
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 86
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e9566e259a727468416849c0211851
+      internalID: -300678320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_47
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 86
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b934952366bf334baa63b5d1570dcc4
+      internalID: -1105477061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_48
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 86
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e649151f58641d540a8526c8cc61790e
+      internalID: 1004794023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_49
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 86
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5deddac24641c48a8b3a55fcd6a90d
+      internalID: -2094717550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763298dbcb1887743ac6b977f86baa7f
+      internalID: -1983546985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_51
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 15
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b79dde14a5775844ab0846d5315d2a9
+      internalID: -647432798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_52
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 15
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee643d1f14900844fb556d0dc92ea26f
+      internalID: 337182168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_53
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 15
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb82b1d6f60f22489998f0f78c24812
+      internalID: 806881896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_54
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 15
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ca5d356b04d1645a41269fe583057b
+      internalID: -1531237310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_55
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 15
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0a1514646109f4687f04db35c4a71e
+      internalID: 1100722586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_56
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 15
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637b803f2c289df488a3e2cba43c5d59
+      internalID: -1048637762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_57
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 15
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708c30b12487a0b40ba942f551df0189
+      internalID: -1089121820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_58
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 15
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f602f11c29a857b40812c2cf94e9814d
+      internalID: 401836816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pared ladrillos larga_59
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 15
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a17199a6b7631458665840313ddb98
+      internalID: -1402289280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pared ladrillos larga_0: -1186117095
+      pared ladrillos larga_1: 1086625173
+      pared ladrillos larga_10: 760404261
+      pared ladrillos larga_11: 1978254257
+      pared ladrillos larga_12: 292717168
+      pared ladrillos larga_13: 964396625
+      pared ladrillos larga_14: 836625645
+      pared ladrillos larga_15: 1014961018
+      pared ladrillos larga_16: 1753331226
+      pared ladrillos larga_17: -184990018
+      pared ladrillos larga_18: 231052148
+      pared ladrillos larga_19: 920104224
+      pared ladrillos larga_2: 539692768
+      pared ladrillos larga_20: -498825770
+      pared ladrillos larga_21: -250203127
+      pared ladrillos larga_22: 1676003263
+      pared ladrillos larga_23: -1388670568
+      pared ladrillos larga_24: 622526960
+      pared ladrillos larga_25: 5208116
+      pared ladrillos larga_26: 186923740
+      pared ladrillos larga_27: 2020841321
+      pared ladrillos larga_28: -688884327
+      pared ladrillos larga_29: 406265782
+      pared ladrillos larga_3: 1181858778
+      pared ladrillos larga_30: 1833230966
+      pared ladrillos larga_31: -1712716713
+      pared ladrillos larga_32: 255032460
+      pared ladrillos larga_33: -61587280
+      pared ladrillos larga_34: -361915500
+      pared ladrillos larga_35: 623890608
+      pared ladrillos larga_36: 425511902
+      pared ladrillos larga_37: -398199388
+      pared ladrillos larga_38: -1874864142
+      pared ladrillos larga_39: -1860378063
+      pared ladrillos larga_4: 1445466673
+      pared ladrillos larga_40: -1081706944
+      pared ladrillos larga_41: 1927018347
+      pared ladrillos larga_42: -3894204
+      pared ladrillos larga_43: -404009925
+      pared ladrillos larga_44: 1716891218
+      pared ladrillos larga_45: 506661424
+      pared ladrillos larga_46: -300678320
+      pared ladrillos larga_47: -1105477061
+      pared ladrillos larga_48: 1004794023
+      pared ladrillos larga_49: -2094717550
+      pared ladrillos larga_5: 1473734422
+      pared ladrillos larga_50: -1983546985
+      pared ladrillos larga_51: -647432798
+      pared ladrillos larga_52: 337182168
+      pared ladrillos larga_53: 806881896
+      pared ladrillos larga_54: -1531237310
+      pared ladrillos larga_55: 1100722586
+      pared ladrillos larga_56: -1048637762
+      pared ladrillos larga_57: -1089121820
+      pared ladrillos larga_58: 401836816
+      pared ladrillos larga_59: -1402289280
+      pared ladrillos larga_6: 1667556271
+      pared ladrillos larga_7: -269399876
+      pared ladrillos larga_8: 1742560783
+      pared ladrillos larga_9: 814102172
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
