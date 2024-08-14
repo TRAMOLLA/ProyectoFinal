@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -160,7 +160,700 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: piso piedra largo - copia_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccfbab0d99d24b40a67e760c60472c9
+      internalID: -2127637019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 210
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a56f6fb88ffd7046951c634c88a3eb6
+      internalID: 108685566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 210
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b81b03cf7007e34c81ef34428893112
+      internalID: 400242805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 210
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e692b183bd8a5429fe57ec0222d518
+      internalID: -140506431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 210
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c2084ef117fea4bbce63e2f3996422
+      internalID: -42336300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 210
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfd8a3fbcc016342bbefaef173186a1
+      internalID: -1761872662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_6
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 210
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c2a4569c8678c44a2e2d3dfa37f408
+      internalID: -1398270403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_7
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 210
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a81bce27643cae44932462f8d86cb9c
+      internalID: -1353219557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_8
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 210
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bf8b68838d72645963fded28f0db61
+      internalID: -1369691219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_9
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 210
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0467e598d4bc0459648cfef70bd30a
+      internalID: 1299695447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_10
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 210
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f76a79d14f531f44bb8a5d234b966f9
+      internalID: -274303554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a903a67c709d7884dad23beb91956444
+      internalID: 2091464661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_12
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 139
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df65fec657aef8489b1cd059a438667
+      internalID: -878366153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_13
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 139
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29111ec39c109cb4aa65c4859ce0002f
+      internalID: -1976663104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_14
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 139
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96186eef3c1f6304bad1ac1fcea7adca
+      internalID: -24743075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_15
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 139
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efecbbe3f1fcb0d44b9d503e9e0ea8e7
+      internalID: 1487892276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_16
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 139
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0202e7a2431c5be429b970f95b985b56
+      internalID: 1891561899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_17
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 139
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105004c9cbcf66745b21bc228d6d4dce
+      internalID: -1091362704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_18
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 139
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0d26c45ff12b441a5d55b5b1e79c6e
+      internalID: -2011784721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_19
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 139
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531c9ca747c63074fbcf52e264dc6530
+      internalID: 912130528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_20
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 139
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6f39c22ebaeea498debc063f9d514d
+      internalID: 1564626809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_21
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 139
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed977bf88fbd5241838fc3598d24fd2
+      internalID: 113446295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149759d4d48d6254c874dec9d44ece84
+      internalID: -1003978031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_23
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 68
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd108f1dbad9d645a1d63c9854ccc1c
+      internalID: 2131047601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_24
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 68
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bc689575320844b9e3809c508914bb
+      internalID: 1801660396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_25
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 68
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3178a4ea5742745a659e05e8835849
+      internalID: 695989425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_26
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 68
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a92045abee52a42bd063806a90c8b6
+      internalID: 1306856952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_27
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 68
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d5cd8b15127bf43a79348320e7bf09
+      internalID: 1480410925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_28
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 68
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6086098831b3f444ba6031e4e9a14306
+      internalID: -340501260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_29
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 68
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e6df294acb8d54fa2ac4f742b73be1
+      internalID: 952770987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_30
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 68
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1019cd74cc4214283a738eb46b85c0
+      internalID: -1456509791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_31
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 68
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf99f1531cbc6743aa6b9175108f2ff
+      internalID: -1410509213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piso piedra largo - copia_32
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 68
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4857de46d1b61e4dadd3921a64cced8
+      internalID: -401159809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -171,7 +864,40 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      piso piedra largo - copia_0: -2127637019
+      piso piedra largo - copia_1: 108685566
+      piso piedra largo - copia_10: -274303554
+      piso piedra largo - copia_11: 2091464661
+      piso piedra largo - copia_12: -878366153
+      piso piedra largo - copia_13: -1976663104
+      piso piedra largo - copia_14: -24743075
+      piso piedra largo - copia_15: 1487892276
+      piso piedra largo - copia_16: 1891561899
+      piso piedra largo - copia_17: -1091362704
+      piso piedra largo - copia_18: -2011784721
+      piso piedra largo - copia_19: 912130528
+      piso piedra largo - copia_2: 400242805
+      piso piedra largo - copia_20: 1564626809
+      piso piedra largo - copia_21: 113446295
+      piso piedra largo - copia_22: -1003978031
+      piso piedra largo - copia_23: 2131047601
+      piso piedra largo - copia_24: 1801660396
+      piso piedra largo - copia_25: 695989425
+      piso piedra largo - copia_26: 1306856952
+      piso piedra largo - copia_27: 1480410925
+      piso piedra largo - copia_28: -340501260
+      piso piedra largo - copia_29: 952770987
+      piso piedra largo - copia_3: -140506431
+      piso piedra largo - copia_30: -1456509791
+      piso piedra largo - copia_31: -1410509213
+      piso piedra largo - copia_32: -401159809
+      piso piedra largo - copia_4: -42336300
+      piso piedra largo - copia_5: -1761872662
+      piso piedra largo - copia_6: -1398270403
+      piso piedra largo - copia_7: -1353219557
+      piso piedra largo - copia_8: -1369691219
+      piso piedra largo - copia_9: 1299695447
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
