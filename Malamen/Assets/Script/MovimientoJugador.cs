@@ -34,9 +34,6 @@ public class MovimientoJugador : MonoBehaviour
 
     private bool salto = false;
 
-    [Header("Animacion")]
-    private Animator animator;
-
     [SerializeField] private int saltosExtraRestantes;
     [SerializeField] private int saltosExtra;
 
@@ -53,7 +50,6 @@ public class MovimientoJugador : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
         gravedadInicial = rb2D.gravityScale;
         spriteRenderer = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
     }
 
     private void Update()
