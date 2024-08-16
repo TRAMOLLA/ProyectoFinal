@@ -4,24 +4,38 @@ using UnityEngine;
 
 public class VidaJugador : MonoBehaviour
 {
-    public int cantidadDeVida;
+    [SerializeField] private float vida;
 
-    public void TomarDaño(int daño)
-    {
-        cantidadDeVida -= daño;
+    private MovimientoJugador movimientoJugador;
 
-        if (cantidadDeVida <= 0)
-        {
-            Destroy(gameObject);
-        }
-    }
-    void Start()
+    [SerializeField] private float tiempoPerdidaControl;
+
+    private Animator animator;
+
+    private void Start()
     {
-        
+        movimientoJugador = GetComponent<MovimientoJugador>();
+        animator = GetComponent<Animator>();
     }
 
-    void Update()
+    public void TomarDaño(float daño)
     {
-        
+        vida -= daño;
     }
+
+    public void TomarDaño(float daño, Vector2 posicion)
+    {
+        vida -= daño;
+        animator.SetTrigger("Golpe");
+        StartCoroutine(PerderControl());
+        movimientoJugador.Rebote(posicion);
+    }
+
+    private IEnumerator PerderControl()
+    {
+        movimientoJugador.sePuedeMover = false;
+        yield return new WaitForSeconds(tiempoPerdidaControl);
+        movimientoJugador.sePuedeMover = true;
+    }
+
 }

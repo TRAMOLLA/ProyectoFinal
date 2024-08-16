@@ -8,6 +8,10 @@ public class DisparoEnemigo : MonoBehaviour
     public float distanciaLinea;
     public LayerMask capaJugador;
     public bool jugadorEnRango;
+    public GameObject balaEnemigo;
+    public float tiempoEntreDisparos;
+    public float tiempoUltimoDisparo;
+    public float tiempoEsperaDisparo;
     void Start()
     {
         
@@ -19,8 +23,18 @@ public class DisparoEnemigo : MonoBehaviour
 
         if (jugadorEnRango)
         {
+            if (Time.time <  tiempoEntreDisparos + tiempoUltimoDisparo)
+            {
+                tiempoUltimoDisparo = Time.time;
+                Invoke(nameof(Disparar), tiempoEsperaDisparo);
 
+            }
         }
+    }
+
+    private void Disparar()
+    {
+        Instantiate(balaEnemigo, controladorDisparo.position, controladorDisparo.rotation);
     }
 
     private void OnDrawGizmos()
