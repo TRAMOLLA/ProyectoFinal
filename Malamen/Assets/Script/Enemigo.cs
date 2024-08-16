@@ -16,7 +16,7 @@ public class Enemigo : MonoBehaviour
     {
         
     }
-    private void TomarDaño(float daño)
+    public void TomarDaño(float daño)
     {
         vida -= daño;
 
