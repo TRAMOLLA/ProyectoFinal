@@ -8,6 +8,10 @@ public class MovimientoJugador : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
 
+    public bool sePuedeMover = true;
+
+    [SerializeField] private Vector2 velocidadRebote;
+
     [Header("Movimiento")]
 
     private float movimientoHorizontal = 0f;
@@ -37,25 +41,30 @@ public class MovimientoJugador : MonoBehaviour
     [SerializeField] private int saltosExtraRestantes;
     [SerializeField] private int saltosExtra;
 
+    [Header("Animacion")]
+    private Animator animator;
+
     [Header("Dash")]
     [SerializeField] private float velocidadDash;
     [SerializeField] private float tiempoDash;
     [SerializeField] private TrailRenderer trailRenderer;
     private float gravedadInicial;
     private bool puedeHacerDash = true;
-    private bool sePuedeMover = true;
 
     private void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
         gravedadInicial = rb2D.gravityScale;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadDeMovimiento;
         enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
+
+        animator.SetFloat("Horizontal", Mathf.Abs(movimientoHorizontal));
 
         if (Input.GetButtonDown("Jump")) {
             salto = true;
@@ -74,6 +83,7 @@ public class MovimientoJugador : MonoBehaviour
     private void FixedUpdate()
     {
         Movimiento(salto);
+        animator.SetBool("enSuelo",enSuelo);
         //Mover
         if (sePuedeMover)
         {
@@ -128,6 +138,11 @@ public class MovimientoJugador : MonoBehaviour
                 saltosExtraRestantes -= 1;
             }
         }
+    }
+
+    public void Rebote(Vector2 puntoGolpe)
+    {
+        rb2D.velocity = new Vector2(-velocidadRebote.x * puntoGolpe.x, velocidadRebote.y);
     }
 
     private void Girar()
