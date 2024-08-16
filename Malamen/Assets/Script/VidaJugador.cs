@@ -2,20 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VidaJugador : MonoBehaviour;
+public class VidaJugador : MonoBehaviour
 {
-    [Serialize Field] private float vida;
+    [SerializeField] private float vida;
 
     private MovimientoJugador movimientoJugador;
 
-    [Serialize Field] private float tiempoPerdidaControl;
+    [SerializeField] private float tiempoPerdidaControl;
 
     private Animator animator;
 
     private void Start()
     {
         movimientoJugador = GetComponent<MovimientoJugador>();
-        animator = GetComponent<animator>();
+        animator = GetComponent<Animator>();
     }
 
     public void TomarDaño(float daño)
@@ -33,9 +33,9 @@ public class VidaJugador : MonoBehaviour;
 
     private IEnumerator PerderControl()
     {
-        movimientoJugador.SePuedeMover = false;
+        movimientoJugador.sePuedeMover = false;
         yield return new WaitForSeconds(tiempoPerdidaControl);
-        movimientoJugador.SePuedeMover = true;
+        movimientoJugador.sePuedeMover = true;
     }
 
 }

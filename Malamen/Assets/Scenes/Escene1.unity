@@ -367,7 +367,6 @@ GameObject:
   - component: {fileID: 591283652}
   - component: {fileID: 591283651}
   - component: {fileID: 591283650}
-  - component: {fileID: 591283649}
   - component: {fileID: 591283648}
   - component: {fileID: 591283654}
   m_Layer: 7
@@ -390,23 +389,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 5
---- !u!114 &591283649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 591283647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d383168923d88f4c83589b73e237c2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidadMovimiento: 8
-  distancia: 5
-  queEsSuelo:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!61 &591283650
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -540,7 +522,7 @@ Transform:
   m_GameObject: {fileID: 591283647}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50.15, y: -8.78, z: 0}
+  m_LocalPosition: {x: 49.84, y: -8.78, z: 0}
   m_LocalScale: {x: 0.57, y: 0.57, z: 0.57}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2669,7 +2651,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdaf7fdf11eea8643ab8db189a16c71a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidadDeVida: 5
+  vida: 5
+  tiempoPerdidaControl: 1
 --- !u!95 &1945405057
 Animator:
   serializedVersion: 5

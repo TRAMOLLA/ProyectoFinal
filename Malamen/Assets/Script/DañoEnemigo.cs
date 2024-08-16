@@ -8,7 +8,7 @@ public class DañoEnemigo : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<CombateJugador>().TomarDaño(1, other.GetContact(0).normal);
+            other.gameObject.GetComponent<VidaJugador>().TomarDaño(1, other.GetContact(0).normal);
         }
     }
 }
