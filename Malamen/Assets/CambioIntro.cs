@@ -6,6 +6,12 @@ public class CambioIntro : MonoBehaviour
 {
     public GameObject[] pantallas;
     public int pantalla;
+    public MenuInicial menu;
+
+    private void Start()
+    {
+        menu = FindAnyObjectByType<MenuInicial>();
+    }
 
     public void Cambio()
     {
@@ -19,6 +25,7 @@ public class CambioIntro : MonoBehaviour
             else
             {
                 pantallas[i].SetActive(false);
+                menu.Jugar();
             }
         }
     }

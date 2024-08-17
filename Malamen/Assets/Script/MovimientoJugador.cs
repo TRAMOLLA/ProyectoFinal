@@ -11,6 +11,7 @@ public class MovimientoJugador : MonoBehaviour
     public bool sePuedeMover = true;
 
     [SerializeField] private Vector2 velocidadRebote;
+    private Vector2 input;
 
     [Header("Movimiento")]
 
@@ -51,12 +52,18 @@ public class MovimientoJugador : MonoBehaviour
     private float gravedadInicial;
     private bool puedeHacerDash = true;
 
+    [Header("Escalar")]
+    [SerializeField] private float velocidadEscalar;
+    private BoxCollider2D boxCollider2D;
+    private bool escalando;
+
     private void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
         gravedadInicial = rb2D.gravityScale;
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        boxCollider2D = GetComponent<BoxCollider2D>();
     }
 
     private void Update()
@@ -77,7 +84,14 @@ public class MovimientoJugador : MonoBehaviour
         {
             saltosExtraRestantes = saltosExtra;
         }
-
+        if (Mathf.Abs(rb2D.velocity.y) > Mathf.Epsilon)
+        {
+            animator.SetFloat("Velocidad",Mathf.Sign(rb2D.velocity.y)); 
+        }
+        else
+        {
+            animator.SetFloat("Velocidad", 0);
+        }
     }
 
     private void FixedUpdate()
@@ -90,6 +104,7 @@ public class MovimientoJugador : MonoBehaviour
             Mover(movimientoHorizontal * Time.fixedDeltaTime, salto);
         }
         salto = false;
+        Escalar();
     }
 
     private void Mover(float mover, bool saltar)
@@ -153,6 +168,28 @@ public class MovimientoJugador : MonoBehaviour
 
     }
 
+     private void Escalar()
+    {
+        if ((input.y != 0 || escalando) && (boxCollider2D.IsTouchingLayers(LayerMask.GetMask("Escaleras"))))
+        { 
+            Vector2 velocidadSubida = new Vector2(rb2D.velocity.x, input.y * velocidadEscalar);
+            rb2D.velocity = velocidadSubida;
+            rb2D.gravityScale = 0;
+            escalando = true; 
+        }
+        else
+        {
+            rb2D.gravityScale = gravedadInicial;
+            escalando = false;
+            if (enSuelo)
+            {
+                escalando = false;
+            }
+        }
+        animator.SetBool("estaEscalando", escalando);
+    }
+
+
     private void OnDrawGizmos(){
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
@@ -169,5 +206,6 @@ public class MovimientoJugador : MonoBehaviour
         puedeHacerDash = true;
         rb2D.gravityScale = gravedadInicial;
         trailRenderer.emitting = false;
+        animator.SetTrigger("Dash");
     }
 }
